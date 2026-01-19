@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    background: #e6e0d4;
+}
+
+.top-bar {
+    background: #2b1d0e;
+    color: #f5f0e6;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.layout {
+    display: flex;
+}
+
+.stocks {
+    width: 260px;
+    background: #f9f7f1;
+    border-right: 3px solid #3a2a18;
+    padding: 10px;
+}
+
+.newspaper {
+    display: flex;
+    flex: 1;
+    background: #fdfbf6;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+}
+
+.page {
+    width: 50%;
+    padding: 20px;
+    border-left: 1px solid #b5a789;
+}
+
+.page h2 {
+    border-bottom: 2px solid #000;
+    font-variant: small-caps;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2b1d0e;
+    color: #f5f0e6;
+}
